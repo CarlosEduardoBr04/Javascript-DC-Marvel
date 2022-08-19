@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+        body{background-color: black;}
+     </style>
+    <title>Herois DC ou Marvel</title>
+</head>
+<body> 
+    
+    
+    <script language="javascript">
+
+        x=prompt("Escolha um universo (Marvel ou DC)");
+
+        if(x=="DC"){
+            DC=prompt("Escolha um Heroi da DC: Batman, Flash, Aquaman, Ravena ou Estelar");
+
+            if(DC=="Batman"){
+                document.write("<img src='img/DC/batman.jpg'>");
+            }
+            else if (DC=="Flash"){
+                document.write("<img src='img/DC/flash.jpg'>");
+            }
+            if(DC=="Aquaman"){
+                document.write("<img src='img/DC/aquaman.jpg'>");
+            }
+            else if (DC=="Ravena"){
+                document.write("<img src='img/DC/ravena.jpg'>");
+            }
+            if(DC=="Estelar"){
+                document.write("<img src='img/DC/estelar.jpg'>");
+            }
+            
+        }
+
+
+
+        else if (x=="Marvel"){
+            Marvel=prompt("Escolha um Heroi da Marvel: Thor, Hulk, Pantera Negra, Tempestade ou Falcão");
+
+            if(Marvel=="Thor"){
+                document.write("<img src='img/Marvel/thor.jpg'>");
+            }
+            else if (Marvel=="Hulk"){
+                document.write("<img src='img/Marvel/hulk.jpg'>");
+            }
+            if (Marvel=="Pantera Negra"){
+                document.write("<img src='img/Marvel/pantera.jpg'>");
+            }
+            else if (Marvel=="Tempestade"){
+                document.write("<img src='img/Marvel/tempestade.jpg'>");
+            }
+            if (Marvel=="Falcão"){
+                document.write("<img src='img/Marvel/falcao.jpg'>");
+            }
+        }
+ 
+    </script>
+    
+</body>
+</html>
